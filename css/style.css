@@ -1,0 +1,114 @@
+body{
+margin:0;
+font-family: Georgia, serif;
+background:#ffffff;
+color:#333;
+}
+
+.nav{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:20px;
+background:#0F5739;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+height:100vh;
+background-image:url("../images/hero.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:60px;
+}
+
+.subtitle{
+font-size:24px;
+color:#A899E0;
+}
+
+.banner img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+
+.content{
+max-width:800px;
+margin:auto;
+padding:40px;
+}
+
+.illustration{
+width:100%;
+margin:30px 0;
+}
+
+.newsletter{
+background:#0F5739;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.newsletter input{
+padding:10px;
+font-size:16px;
+}
+
+.newsletter button{
+background:#6E0A8A;
+color:white;
+border:none;
+padding:10px 20px;
+}
+
+.post{
+margin-bottom:40px;
+}
+
+.date{
+color:#6E0A8A;
+font-size:14px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#0F5739;
+color:white;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.hero{
+background:none;
+color:#0F5739;
+}
+
+.hero-text h1{
+font-size:36px;
+}
+
+.nav{
+flex-direction:column;
+align-items:center;
+}
+
+}
