@@ -74,6 +74,17 @@ width:100%;
 margin:30px 0;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .newsletter{
 background:#0F5739;
 color:white;
