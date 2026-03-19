@@ -97,33 +97,43 @@ margin:30px 0;
   display: block;
 }
 
-.newsletter {
+.newsletter-box {
+  background: #ffffff;
+  border: 1px solid #e0d8cc;
+  padding: 1.5rem;
   margin: 2rem 0;
+  max-width: 420px;
 }
 
-.newsletter input[type="email"] {
+.newsletter-box h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.newsletter-box p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter-box input[type="email"] {
+  width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
-  width: 220px;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
 }
 
-.newsletter button {
-  padding: 8px 14px;
+.newsletter-box button {
   background: #8a1129;
   color: white;
   border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
 }
 
-.newsletter input{
-padding:10px;
-font-size:16px;
-}
-
-.newsletter button{
-background:#6E0A8A;
-color:white;
-border:none;
-padding:10px 20px;
+.newsletter-box button:hover {
+  background: #6f0d21;
 }
 
 .post{
