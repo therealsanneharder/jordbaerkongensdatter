@@ -85,6 +85,12 @@ margin:30px 0;
   display: block;
 }
 
+.blog-img {
+  max-width: 100%; /* skalerer med tekstområdet */
+  margin: 1rem 0;  /* afstand til tekst */
+  display: block;
+}
+
 .newsletter{
 background:#0F5739;
 color:white;
