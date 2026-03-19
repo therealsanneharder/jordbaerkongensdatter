@@ -10,10 +10,12 @@ font-family: "Bitter", Georgia, serif;
 }
 
 .nav{
+position:absolute;
+top:30px;
+right:50px;
 display:flex;
-justify-content:center;
 gap:30px;
-padding:20px;
+padding:14px 22px;
 background:#0F5739;
 }
 
