@@ -36,8 +36,13 @@ color:white;
 position:relative;
 }
 
-.hero-text h1{
-font-size:60px;
+.hero-text{
+position:absolute;
+left:70px;
+top:50%;
+transform:translateY(-50%);
+max-width:420px;
+text-align:left;
 }
 
 .subtitle{
