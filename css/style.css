@@ -28,7 +28,7 @@ font-size:18px;
 .hero{
 height:100vh;
 background:
-linear-gradient(to right, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.25) 35%, rgba(0,0,0,0) 60%),
+linear-gradient(to right, rgba(15,87,57,0.45) 0%, rgba(15,87,57,0.25) 35%, rgba(15,87,57,0) 60%),
 url("../images/jordbaerkongens_datter.jpg");
 background-size:cover;
 background-position:center;
